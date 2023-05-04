@@ -1,16 +1,19 @@
 import React from 'react';
-import Project from '../Project/Project';
-import './Portfolio.css';
+import Project from './Project';
 
 const projectsData = [
-  // Adding project details here
   {
-    title: 'Project 1',
-    imageUrl: 'https://via.placeholder.com/150',
-    deployedUrl: 'https://example.com/project1',
-    githubUrl: 'https://github.com/user/project1',
+    title: 'WeatherWear: Clothing recommendations based on the weather',
+    imageUrl: 'https://i.postimg.cc/4yRZCQNB/Screenshot-2023-04-17-at-6-24-42-AM.png',
+    deployedUrl: 'https://zellyb.github.io/Weather-Wear/',
+    githubUrl: '',
   },
-  // More projects...
+  {
+    title: 'Magical Breadsticks: An AI generated Comic book generator with user data server functionality.',
+    imageUrl: 'https://i.postimg.cc/QtkYtQJ6/Screenshot-2023-04-17-at-6-27-02-AM.png',
+    deployedUrl: 'https://magical-breadsticks.herokuapp.com/',
+    githubUrl: '',
+  },
 ];
 
 const Portfolio = () => {
