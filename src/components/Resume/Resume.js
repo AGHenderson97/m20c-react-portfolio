@@ -10,14 +10,14 @@ const Resume = () => {
       </a>
       <h3>Proficiencies</h3>
       <ul>
-        {/* proficiencies here */}
+        {/**/}
         <li>HTML & CSS</li>
         <li>JavaScript</li>
         <li>React</li>
         <li>Node.js</li>
         <li>Express.js</li>
         <li>MongoDB</li>
-        {/* ... */}
+        {/**/}
       </ul>
     </section>
   );
