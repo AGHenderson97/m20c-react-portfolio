@@ -1,0 +1,16 @@
+#about {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#about img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#about p {
+  text-align: justify;
+}
