@@ -1,8 +1,11 @@
-import { reportWebVitals as reportWebVitalsBase } from 'web-vitals';
+import { getCLS, getFID, getLCP, getTTFB } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
-    reportWebVitalsBase(onPerfEntry);
+    getCLS(onPerfEntry);
+    getFID(onPerfEntry);
+    getLCP(onPerfEntry);
+    getTTFB(onPerfEntry);
   }
 };
 
